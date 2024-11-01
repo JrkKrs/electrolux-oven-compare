@@ -1,0 +1,1206 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.css"/>
+    <style>
+        thead > :first-child th {
+            position: sticky;
+            top: 0px; /* This is for all the the "th" elements in the first child row */
+        }
+
+    </style>
+</head>
+<body data-bs-theme="dark">
+<table border="1" class="dataframe">
+    <thead>
+    <tr style="text-align: right;">
+        <th></th>
+        <th></th>
+        <th>EOABS39WZ</th>
+        <th>EOA9S31WZ</th>
+        <th>KOAAS31WX</th>
+        <th>EOA9S31CX</th>
+        <th>KOAAS31CX</th>
+        <th>KOAAS31WT</th>
+        <th>KOABS39X</th>
+        <th>EOABS39Z</th>
+        <th>KOABS39WX</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <th rowspan="33" valign="top">Performance</th>
+        <th>Tryb_Au Gratin</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_grzanie dolne</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_pieczenie chleba</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_konwencjonalne/tradycyjne pieczenie</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_rozmrażanie</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_utrzymywanie temperatury</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_powolne gotowanie</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_regeneracja parowa</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_Steamify</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_termoobieg</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_grillowanie turbo</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_wyrastanie ciasta</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_suszenie</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_zamrożone potrawy</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_para 100%</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_grill</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_duża wilgotność</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_mała wilgotność</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_utrzymywanie ciepła</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_nawilżanie</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_pizza</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_ogrzewanie talerzy</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_pieczenie z parą</th>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+    </tr>
+    <tr>
+        <th>Tryb_szybkie grillowanie</th>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+    </tr>
+    <tr>
+        <th>Tryb_delikatne</th>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+    </tr>
+    <tr>
+        <th>Tryb_termoobieg/ STEAM BAKE</th>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+    </tr>
+    <tr>
+        <th>Tryb_średnia wilgotność</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_SousVide</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_funkcja Yoghurt</th>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+        <td>TAK</td>
+    </tr>
+    <tr>
+        <th>Tryb_ogrzewanie górne/dolne</th>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+    </tr>
+    <tr>
+        <th>Tryb_Dehydrating</th>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+    </tr>
+    <tr>
+        <th>Tryb_termoobieg z parą</th>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+    </tr>
+    <tr>
+        <th>Tryb_szybkie nagrzewanie</th>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+    </tr>
+    <tr>
+        <th>Other</th>
+        <th>Kolor</th>
+        <td>czarny</td>
+        <td>czarny</td>
+        <td>stal szlachetna</td>
+        <td>stal szlachetna</td>
+        <td>stal szlachetna</td>
+        <td>czarny matowy</td>
+        <td>stal szlachetna</td>
+        <td>czarny</td>
+        <td>stal szlachetna</td>
+    </tr>
+    <tr>
+        <th>Energy</th>
+        <th>Klasa efektywności energetycznej</th>
+        <td>A++</td>
+        <td>A++</td>
+        <td>A++</td>
+        <td>A++</td>
+        <td>A++</td>
+        <td>A++</td>
+        <td>A++</td>
+        <td>A++</td>
+        <td>A++</td>
+    </tr>
+    <tr>
+        <th>Installation</th>
+        <th>Wymiary w zabudowie (W x S x G) [mm]</th>
+        <td>590x560x550</td>
+        <td>590x560x550</td>
+        <td>590x560x550</td>
+        <td>590x560x550</td>
+        <td>590x560x550</td>
+        <td>590x560x550</td>
+        <td>590x560x550</td>
+        <td>590x560x550</td>
+        <td>590x560x550</td>
+    </tr>
+    <tr>
+        <th>Performance</th>
+        <th>Funkcja Connectivity</th>
+        <td>tak</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td>nie</td>
+        <td>tak</td>
+    </tr>
+    <tr>
+        <th>Installation</th>
+        <th>Całkowity pobór mocy [W]</th>
+        <td>3500</td>
+        <td>3500</td>
+        <td>3500</td>
+        <td>3500</td>
+        <td>3500</td>
+        <td>3500</td>
+        <td>3500</td>
+        <td>3500</td>
+        <td>3500</td>
+    </tr>
+    <tr>
+        <th>Other</th>
+        <th>Poziom pary</th>
+        <td>Profisteam1</td>
+        <td>Profisteam1</td>
+        <td>Profisteam1</td>
+        <td>Profisteam1</td>
+        <td>Profisteam1</td>
+        <td>Profisteam1</td>
+        <td>Profisteam1</td>
+        <td>Profisteam1</td>
+        <td>Profisteam1</td>
+    </tr>
+    <tr>
+        <th rowspan="3" valign="top">Performance</th>
+        <th>Wyświetlacz</th>
+        <td>dotykowy TFT EXCite</td>
+        <td>I-Tex100</td>
+        <td>I-Tex100</td>
+        <td>I-Tex100</td>
+        <td>I-Tex100</td>
+        <td>I-Tex100</td>
+        <td>dotykowy TFT EXCite</td>
+        <td>dotykowy TFT EXCite</td>
+        <td>dotykowy TFT EXCite</td>
+    </tr>
+    <tr>
+        <th>Pojemność użytkowa [l]</th>
+        <td>70</td>
+        <td>70</td>
+        <td>70</td>
+        <td>70</td>
+        <td>70</td>
+        <td>70</td>
+        <td>70</td>
+        <td>70</td>
+        <td>70</td>
+    </tr>
+    <tr>
+        <th>Sposób czyszczenia</th>
+        <td>para</td>
+        <td>para</td>
+        <td>para</td>
+        <td>para</td>
+        <td>para</td>
+        <td>para</td>
+        <td>para</td>
+        <td>para</td>
+        <td>para</td>
+    </tr>
+    <tr>
+        <th>Installation</th>
+        <th>Wymiary WxSzxG [mm]</th>
+        <td>594x595x567</td>
+        <td>594x595x567</td>
+        <td>594x595x567</td>
+        <td>594x595x567</td>
+        <td>594x595x567</td>
+        <td>594x595x567</td>
+        <td>594x595x567</td>
+        <td>594x595x567</td>
+        <td>594x595x567</td>
+    </tr>
+    <tr>
+        <th rowspan="5" valign="top">Performance</th>
+        <th>Interfejs</th>
+        <td>sterowanie dotykowe</td>
+        <td>sterowanie dotykowe</td>
+        <td>sterowanie dotykowe</td>
+        <td>sterowanie dotykowe</td>
+        <td>sterowanie dotykowe</td>
+        <td>sterowanie dotykowe</td>
+        <td>sterowanie dotykowe</td>
+        <td>sterowanie dotykowe</td>
+        <td>sterowanie dotykowe</td>
+    </tr>
+    <tr>
+        <th>Moc grilla [W]</th>
+        <td>2300</td>
+        <td>2300</td>
+        <td>2300</td>
+        <td>2300</td>
+        <td>2300</td>
+        <td>2300</td>
+        <td>2300</td>
+        <td>2300</td>
+        <td>2300</td>
+    </tr>
+    <tr>
+        <th>Maks. moc piekarnika [W]</th>
+        <td>3500</td>
+        <td>3500</td>
+        <td>3500</td>
+        <td>3500</td>
+        <td>3500</td>
+        <td>3500</td>
+        <td>3500</td>
+        <td>3500</td>
+        <td>3500</td>
+    </tr>
+    <tr>
+        <th>Zakres temperatur</th>
+        <td>30°C-230°C</td>
+        <td>30°C-230°C</td>
+        <td>30°C-230°C</td>
+        <td>30°C-230°C</td>
+        <td>30°C-230°C</td>
+        <td>30°C-230°C</td>
+        <td>30°C-230°C</td>
+        <td>30°C-230°C</td>
+        <td>30°C-230°C</td>
+    </tr>
+    <tr>
+        <th>Powierzchnia największej płyty grzewczej - górny piekarnik [cm2]</th>
+        <td>1424</td>
+        <td>1424</td>
+        <td>1424</td>
+        <td>1424</td>
+        <td>1424</td>
+        <td>1424</td>
+        <td>1424</td>
+        <td>1424</td>
+        <td>1424</td>
+    </tr>
+    <tr>
+        <th>Other</th>
+        <th>Oświetlenie</th>
+        <td>2|halogen bok|halogen góra</td>
+        <td>2|halogen bok|halogen góra</td>
+        <td>2|halogen bok|halogen góra</td>
+        <td>2|halogen bok|halogen góra</td>
+        <td>2|halogen bok|halogen góra</td>
+        <td>2|halogen bok|halogen góra</td>
+        <td>2|halogen bok|halogen góra</td>
+        <td>2|halogen bok|halogen góra</td>
+        <td>2|halogen bok|halogen góra</td>
+    </tr>
+    <tr>
+        <th rowspan="5" valign="top">Energy</th>
+        <th>Energy efficiency index EEI</th>
+        <td>61.9</td>
+        <td>61.9</td>
+        <td>61.9</td>
+        <td>61.9</td>
+        <td>61.9</td>
+        <td>61.9</td>
+        <td>61.9</td>
+        <td>61.9</td>
+        <td>61.9</td>
+    </tr>
+    <tr>
+        <th>Zużycie energii przy standardowym obciążeniu [kW]</th>
+        <td>0,99</td>
+        <td>0,99</td>
+        <td>0,99</td>
+        <td>0,99</td>
+        <td>0,99</td>
+        <td>0,99</td>
+        <td>0,99</td>
+        <td>0,99</td>
+        <td>0,99</td>
+    </tr>
+    <tr>
+        <th>Zużycie energii, wentylator [kWh/cykl]</th>
+        <td>0,52</td>
+        <td>0,52</td>
+        <td>0,52</td>
+        <td>0,52</td>
+        <td>0,52</td>
+        <td>0,52</td>
+        <td>0,52</td>
+        <td>0,52</td>
+        <td>0,52</td>
+    </tr>
+    <tr>
+        <th>Moc oświetlenia [W]</th>
+        <td>65</td>
+        <td>65</td>
+        <td>65</td>
+        <td>65</td>
+        <td>65</td>
+        <td>65</td>
+        <td>65</td>
+        <td>65</td>
+        <td>65</td>
+    </tr>
+    <tr>
+        <th>Typ piekarnika</th>
+        <td>elektryczny</td>
+        <td>elektryczny</td>
+        <td>elektryczny</td>
+        <td>elektryczny</td>
+        <td>elektryczny</td>
+        <td>elektryczny</td>
+        <td>elektryczny</td>
+        <td>elektryczny</td>
+        <td>elektryczny</td>
+    </tr>
+    <tr>
+        <th>Other</th>
+        <th>Typ\n</th>
+        <td>Piekarnik elektryczny do zabudowy</td>
+        <td>Piekarnik elektryczny do zabudowy</td>
+        <td>Piekarnik elektryczny do zabudowy</td>
+        <td>Piekarnik elektryczny do zabudowy</td>
+        <td>Piekarnik elektryczny do zabudowy</td>
+        <td>Piekarnik elektryczny do zabudowy</td>
+        <td>Piekarnik elektryczny do zabudowy</td>
+        <td>Piekarnik elektryczny do zabudowy</td>
+        <td>Piekarnik elektryczny do zabudowy</td>
+    </tr>
+    <tr>
+        <th>Performance</th>
+        <th>Poziom hałasu [dB] - górny piekarnik</th>
+        <td>53</td>
+        <td>53</td>
+        <td>53</td>
+        <td>53</td>
+        <td>53</td>
+        <td>53</td>
+        <td>53</td>
+        <td>53</td>
+        <td>53</td>
+    </tr>
+    <tr>
+        <th rowspan="2" valign="top">Installation</th>
+        <th>Waga brutto [kg]</th>
+        <td>39.5</td>
+        <td>40.5</td>
+        <td>41,5</td>
+        <td>41,5</td>
+        <td>41,5</td>
+        <td>41,5</td>
+        <td>39</td>
+        <td>39</td>
+        <td>39.5</td>
+    </tr>
+    <tr>
+        <th>Waga netto [kg]</th>
+        <td>38,5</td>
+        <td>39,5</td>
+        <td>40,5</td>
+        <td>40,5</td>
+        <td>40,5</td>
+        <td>40,5</td>
+        <td>38</td>
+        <td>38</td>
+        <td>38,5</td>
+    </tr>
+    <tr>
+        <th rowspan="3" valign="top">Other</th>
+        <th>Brytfanny dołączone do piekarnika</th>
+        <td>1 emaliowana blacha|1 emaliowana brytfanna|1 zestaw do gotowania na parze</td>
+        <td>1 emaliowana brytfanna|1 zestaw do gotowania na parze|2 emaliowane blachy</td>
+        <td>1 emaliowana blacha|1 emaliowana brytfanna|1 zestaw do gotowania na parze</td>
+        <td>1 emaliowana blacha|1 emaliowana brytfanna|1 zestaw do gotowania na parze</td>
+        <td>1 emaliowana blacha|1 emaliowana brytfanna|1 zestaw do gotowania na parze</td>
+        <td>1 emaliowana brytfanna|1 zestaw do gotowania na parze|2 emaliowane blachy</td>
+        <td>1 emaliowana blacha|1 emaliowana brytfanna|1 zestaw do gotowania na parze</td>
+        <td>1 emaliowana blacha|1 emaliowana brytfanna|1 zestaw do gotowania na parze</td>
+        <td>1 emaliowana blacha|1 emaliowana brytfanna|1 zestaw do gotowania na parze</td>
+    </tr>
+    <tr>
+        <th>Rodzaj rusztu</th>
+        <td>1, stal szlachetna</td>
+        <td>1, stal szlachetna</td>
+        <td>2, stal nierdzewna</td>
+        <td>2, stal nierdzewna</td>
+        <td>2, stal nierdzewna</td>
+        <td>1, stal szlachetna</td>
+        <td>1, stal szlachetna</td>
+        <td>1, stal szlachetna</td>
+        <td>1, stal szlachetna</td>
+    </tr>
+    <tr>
+        <th>Prowadnice</th>
+        <td>drabinki Easy Entry; stal szlachetna</td>
+        <td>drabinki Easy Entry; stal szlachetna</td>
+        <td>drabinki Easy Entry; stal szlachetna</td>
+        <td>drabinki Easy Entry; stal szlachetna</td>
+        <td>drabinki Easy Entry; stal szlachetna</td>
+        <td>drabinki Easy Entry; stal szlachetna</td>
+        <td>drabinki Easy Entry; stal szlachetna</td>
+        <td>drabinki Easy Entry; stal szlachetna</td>
+        <td>drabinki Easy Entry; stal szlachetna</td>
+    </tr>
+    <tr>
+        <th rowspan="2" valign="top">Installation</th>
+        <th>Długość przewodu [m]</th>
+        <td>1,5</td>
+        <td>1,5</td>
+        <td>1,5</td>
+        <td>1,5</td>
+        <td>1,5</td>
+        <td>1,5</td>
+        <td>1,5</td>
+        <td>1,5</td>
+        <td>1,5</td>
+    </tr>
+    <tr>
+        <th>Rodzaj wtyczki</th>
+        <td>Schuko</td>
+        <td>Schuko</td>
+        <td>Schuko</td>
+        <td>Schuko</td>
+        <td>Schuko</td>
+        <td>Schuko</td>
+        <td>Schuko</td>
+        <td>Schuko</td>
+        <td>Schuko</td>
+    </tr>
+    <tr>
+        <th>Performance</th>
+        <th>Maks. temperatura powierzchni drzwi [°C] (zgodnie z normą EN30 lub 60335-1)</th>
+        <td>30</td>
+        <td>30</td>
+        <td>30</td>
+        <td>30</td>
+        <td>30</td>
+        <td>30</td>
+        <td>30</td>
+        <td>30</td>
+        <td>30</td>
+    </tr>
+    <tr>
+        <th rowspan="2" valign="top">Other</th>
+        <th>Wyposażenie</th>
+        <td>prowadnice teleskopowe 1 poziom|paski do kontroli twardości wody</td>
+        <td>prowadnice teleskopowe 1 poziom|paski do kontroli twardości wody</td>
+        <td>prowadnice teleskopowe 1 poziom|paski do kontroli twardości wody</td>
+        <td>prowadnice teleskopowe 1 poziom|paski do kontroli twardości wody</td>
+        <td>prowadnice teleskopowe 1 poziom|paski do kontroli twardości wody</td>
+        <td>prowadnice teleskopowe 1 poziom|paski do kontroli twardości wody</td>
+        <td>prowadnice teleskopowe 1 poziom|paski do kontroli twardości wody</td>
+        <td>prowadnice teleskopowe 1 poziom|paski do kontroli twardości wody</td>
+        <td>prowadnice teleskopowe 1 poziom|paski do kontroli twardości wody</td>
+    </tr>
+    <tr>
+        <th>Komora</th>
+        <td>Grey Enamel;Stainless steel fan cover</td>
+        <td>Grey Enamel;Stainless steel fan cover</td>
+        <td>Grey Enamel;Stainless steel fan cover</td>
+        <td>Grey Enamel;Stainless steel fan cover</td>
+        <td>Grey Enamel;Stainless steel fan cover</td>
+        <td>Grey Enamel;Stainless steel fan cover</td>
+        <td>Grey Enamel;Stainless steel fan cover</td>
+        <td>Grey Enamel;Stainless steel fan cover</td>
+        <td>Grey Enamel;Stainless steel fan cover</td>
+    </tr>
+    <tr>
+        <th>Performance</th>
+        <th>Nø of cavities</th>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <th rowspan="2" valign="top">Other</th>
+        <th>Kod produktu (PNC)</th>
+        <td>944 032 103</td>
+        <td>944 032 040</td>
+        <td>944 184 821</td>
+        <td>944 184 827</td>
+        <td>944 184 820</td>
+        <td>944 184 871</td>
+        <td>944 032 071</td>
+        <td>944 032 081</td>
+        <td>944 032 099</td>
+    </tr>
+    <tr>
+        <th>Kod EAN</th>
+        <td>7332543988662</td>
+        <td>7332543798667</td>
+        <td>7332543661039</td>
+        <td>7332543660612</td>
+        <td>7332543640546</td>
+        <td>7332543657810</td>
+        <td>7332543842018</td>
+        <td>7332543844715</td>
+        <td>7332543988532</td>
+    </tr>
+    <tr>
+        <th rowspan="3" valign="top">Installation</th>
+        <th>Napięcie [V]</th>
+        <td>230</td>
+        <td>230</td>
+        <td>230</td>
+        <td>230</td>
+        <td>230</td>
+        <td>230</td>
+        <td>230</td>
+        <td>230</td>
+        <td>230</td>
+    </tr>
+    <tr>
+        <th>Wymagany bezpiecznik [A]</th>
+        <td>16</td>
+        <td>16</td>
+        <td>16</td>
+        <td>16</td>
+        <td>16</td>
+        <td>16</td>
+        <td>16</td>
+        <td>16</td>
+        <td>16</td>
+    </tr>
+    <tr>
+        <th>Instalacja</th>
+        <td>do zabudowy</td>
+        <td>do zabudowy</td>
+        <td>do zabudowy</td>
+        <td>do zabudowy</td>
+        <td>do zabudowy</td>
+        <td>do zabudowy</td>
+        <td>do zabudowy</td>
+        <td>do zabudowy</td>
+        <td>do zabudowy</td>
+    </tr>
+    <tr>
+        <th rowspan="2" valign="top">Other</th>
+        <th>Funkcja CookView</th>
+        <td>nie</td>
+        <td>nie</td>
+        <td>nie</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td>nie</td>
+        <td>nie</td>
+        <td>nie</td>
+        <td>nie</td>
+    </tr>
+    <tr>
+        <th>Rodzaj wyświetlacza</th>
+        <td>EXCite</td>
+        <td>EXCite+ (I-Tex100)</td>
+        <td>EXCite+ (I-Tex100)</td>
+        <td>EXCite+ (I-Tex100)</td>
+        <td>EXCite+ (I-Tex100)</td>
+        <td>EXCite+ (I-Tex100)</td>
+        <td>EXCite</td>
+        <td>EXCite</td>
+        <td>EXCite</td>
+    </tr>
+    <tr>
+        <th rowspan="3" valign="top">Performance</th>
+        <th>Tryby gotowania</th>
+        <td>termoobieg + para</td>
+        <td>termoobieg + para</td>
+        <td>termoobieg + para</td>
+        <td>termoobieg + para</td>
+        <td>termoobieg + para</td>
+        <td>termoobieg + para</td>
+        <td>termoobieg + para</td>
+        <td>termoobieg + para</td>
+        <td>termoobieg + para</td>
+    </tr>
+    <tr>
+        <th>Moc grzałki dolnej [W]</th>
+        <td>1000</td>
+        <td>1000</td>
+        <td>1000</td>
+        <td>1000</td>
+        <td>1000</td>
+        <td>1000</td>
+        <td>1000</td>
+        <td>1000</td>
+        <td>1000</td>
+    </tr>
+    <tr>
+        <th>Moc grzałki grilla [W]</th>
+        <td>2300</td>
+        <td>2300</td>
+        <td>2300</td>
+        <td>2300</td>
+        <td>2300</td>
+        <td>2300</td>
+        <td>2300</td>
+        <td>2300</td>
+        <td>2300</td>
+    </tr>
+    <tr>
+        <th rowspan="2" valign="top">Other</th>
+        <th>Moc grzałki termoobiegu [W]</th>
+        <td>2400</td>
+        <td>2400</td>
+        <td>2400</td>
+        <td>2400</td>
+        <td>2400</td>
+        <td>2400</td>
+        <td>2400</td>
+        <td>2400</td>
+        <td>2400</td>
+    </tr>
+    <tr>
+        <th>Delikatne domykanie</th>
+        <td>tak</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td>tak</td>
+        <td>tak</td>
+    </tr>
+    <tr>
+        <th rowspan="8" valign="top">Installation</th>
+        <th>Wysokość [mm]</th>
+        <td>594</td>
+        <td>594</td>
+        <td>594</td>
+        <td>594</td>
+        <td>594</td>
+        <td>594</td>
+        <td>594</td>
+        <td>594</td>
+        <td>594</td>
+    </tr>
+    <tr>
+        <th>Szerokość [mm]</th>
+        <td>595</td>
+        <td>595</td>
+        <td>595</td>
+        <td>595</td>
+        <td>595</td>
+        <td>595</td>
+        <td>595</td>
+        <td>595</td>
+        <td>595</td>
+    </tr>
+    <tr>
+        <th>Głębokość [mm]</th>
+        <td>567</td>
+        <td>567</td>
+        <td>567</td>
+        <td>567</td>
+        <td>567</td>
+        <td>567</td>
+        <td>567</td>
+        <td>567</td>
+        <td>567</td>
+    </tr>
+    <tr>
+        <th>Wysokość niszy [mm]</th>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+    </tr>
+    <tr>
+        <th>Szerokość niszy [mm]</th>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+        <td>---</td>
+    </tr>
+    <tr>
+        <th>Wysokość opakowania [mm]</th>
+        <td>670</td>
+        <td>670</td>
+        <td>670</td>
+        <td>670</td>
+        <td>670</td>
+        <td>670</td>
+        <td>670</td>
+        <td>670</td>
+        <td>670</td>
+    </tr>
+    <tr>
+        <th>Szerokość opakowania [mm]</th>
+        <td>635</td>
+        <td>635</td>
+        <td>635</td>
+        <td>635</td>
+        <td>635</td>
+        <td>635</td>
+        <td>635</td>
+        <td>635</td>
+        <td>635</td>
+    </tr>
+    <tr>
+        <th>Głębokość opakowania [mm]</th>
+        <td>670</td>
+        <td>670</td>
+        <td>670</td>
+        <td>670</td>
+        <td>670</td>
+        <td>670</td>
+        <td>670</td>
+        <td>670</td>
+        <td>670</td>
+    </tr>
+    <tr>
+        <th rowspan="7" valign="top">Other</th>
+        <th>EcoLine</th>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Yes</td>
+        <td>Yes</td>
+    </tr>
+    <tr>
+        <th>Master model</th>
+        <td>E_BI_60_AUP_PUX_1_S_PS1_S_1_0_0</td>
+        <td>E_BI_60_AUP_TEXT_1_S_PS1_S_1_0_0</td>
+        <td>E_BI_60_AUP_TEXT_1_S_PS1_S_1_0_0</td>
+        <td>E_BI_60_AUP_TEXT_1_S_PS1_S_1_0_1</td>
+        <td>E_BI_60_AUP_TEXT_1_S_PS1_S_1_0_1</td>
+        <td>E_BI_60_AUP_TEXT_1_S_PS1_S_1_0_0</td>
+        <td>E_BI_60_AUP_PUX_0_S_PS1_S_1_0_0</td>
+        <td>E_BI_60_AUP_PUX_0_S_PS1_S_1_0_0</td>
+        <td>E_BI_60_AUP_PUX_1_S_PS1_S_1_0_0</td>
+    </tr>
+    <tr>
+        <th>Linia</th>
+        <td>SteamPro</td>
+        <td>SteamPro</td>
+        <td>SteamPro</td>
+        <td>SteamPro</td>
+        <td>SteamPro</td>
+        <td>SteamPro</td>
+        <td>SteamPro</td>
+        <td>SteamPro</td>
+        <td>SteamPro</td>
+    </tr>
+    <tr>
+        <th>Seria</th>
+        <td>900</td>
+        <td>900</td>
+        <td>900</td>
+        <td>900</td>
+        <td>900</td>
+        <td>900</td>
+        <td>900</td>
+        <td>900</td>
+        <td>900</td>
+    </tr>
+    <tr>
+        <th>Kod partnera</th>
+        <td>ER</td>
+        <td>open</td>
+        <td>KR</td>
+        <td>ER</td>
+        <td>KR</td>
+        <td>KR</td>
+        <td>KR</td>
+        <td>ER</td>
+        <td>KR</td>
+    </tr>
+    <tr>
+        <th>Cena</th>
+        <td>6 499 zł</td>
+        <td>6 999 zł</td>
+        <td>7 299 zł</td>
+        <td>8 169 zł</td>
+        <td>8 999 zł</td>
+        <td>8 399 zł</td>
+        <td>6 199 zł</td>
+        <td>6 499 zł</td>
+        <td>---</td>
+    </tr>
+    <tr>
+        <th>Nazwa</th>
+        <td>Piekarnik parowy SteamPro 900</td>
+        <td>Piekarnik parowy SteamPro 900</td>
+        <td>Piekarnik parowy SteamPro 900</td>
+        <td>Piekarnik parowy SteamPro 900 z kamerą</td>
+        <td>Piekarnik parowy SteamPro 900 z kamerą</td>
+        <td>Piekarnik parowy SteamPro 900</td>
+        <td>Piekarnik parowy SteamPro 900</td>
+        <td>Piekarnik parowy SteamPro 900</td>
+        <td>Piekarnik parowy SteamPro 900</td>
+    </tr>
+    </tbody>
+</table>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.datatables.net/2.1.8/js/dataTables.js"></script>
+
+<script>
+    $(document).ready(function () {
+        $('#myTable').DataTable();
+    });
+
+</script>
+</body>
+</html>
