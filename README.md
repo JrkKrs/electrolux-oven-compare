@@ -1,7 +1,7 @@
-# Elektrolux Project
+# Electrolux Project
 
 ## Description
-The Elektrolux Project is an application for analyzing and comparing the technical specifications of various oven models.
+The Electrolux Project is an application for analyzing and comparing the technical specifications of various oven models.
 
 ## Requirements
 - Python 3.7+
@@ -29,10 +29,10 @@ The Elektrolux Project is an application for analyzing and comparing the technic
 The project is available under the MIT license.
 
 ### Polska Wersja
-# Projekt Elektrolux
+# Projekt Electrolux
 
 ## Opis
-Projekt Elektrolux to aplikacja do analizy i porównywania specyfikacji technicznych różnych modeli piekarników.
+Projekt Electrolux to aplikacja do analizy i porównywania specyfikacji technicznych różnych modeli piekarników.
 
 ## Wymagania
 - Python 3.7+
