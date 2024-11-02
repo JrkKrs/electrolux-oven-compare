@@ -4,7 +4,7 @@
 The Electrolux Project is an application for analyzing and comparing the technical specifications of various oven models.
 
 ## Page
-https://jrkkrs.github.io/elecrolux-over-compare/english.html #TODO
+https://jrkkrs.github.io/electrolux-oven-compare/english.html #TODO
 
 ## Requirements
 - Python 3.7+
@@ -38,7 +38,7 @@ The project is available under the MIT license.
 Projekt Electrolux to aplikacja do analizy i porównywania specyfikacji technicznych różnych modeli piekarników.
 
 ## Strona
-https://jrkkrs.github.io/elecrolux-over-compare/
+https://jrkkrs.github.io/electrolux-oven-compare/
 
 ## Wymagania
 - Python 3.7+
